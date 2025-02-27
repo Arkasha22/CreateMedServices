@@ -182,6 +182,6 @@ with zipfile.ZipFile("Services.zip", mode="w") as archive:
                 archive.write(filename)
 
 #Emails zip files to my email address
-subprocess.run("mutt -s 'AGOL update' d.maruta@gmail.com -a Cambs.zip -a Times.zip -a Services.zip < myfile.txt", shell=True)
+subprocess.run("mutt -s 'AGOL update' xxx@gmail.com -a Cambs.zip -a Times.zip -a Services.zip < myfile.txt", shell=True)
 
 print("Alles gemacht!")
