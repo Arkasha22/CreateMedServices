@@ -4,7 +4,6 @@ Create Medical Services Shapefile
 Process Followed
 
 1 – Had to create a new Postcodes file in order to act as a filter for Cambridgeshire.
-
 2 – Changed the co-ordinates for my NHS facilities API.
 
 3 – Combined all the required datasets into a single pandas dataframe (Clinics, Dentists, GPs, Hospitals, Opticians, Pharmacies).
